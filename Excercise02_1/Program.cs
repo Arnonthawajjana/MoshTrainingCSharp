@@ -18,10 +18,31 @@ namespace Excercise02_1
             while (true)
             {
                 inputFromKeyboard.Append(Console.ReadLine());
-                if(inputFromKeyboard.ToString().)
-                likeListName.Add(inputFromKeyboard.ToString());
-                inputFromKeyboard.Clear();
+                if (!inputFromKeyboard.ToString().Equals(String.Empty))
+                {
+                    likeListName.Add(inputFromKeyboard.ToString());
+                    inputFromKeyboard.Clear();
+                }
+                else
+                {
+                    Console.WriteLine("Let't see who like you");
+                    for (int index = 0; index < likeListName.Count(); index++)
+                    {
+                        if (index < 2)
+                        {
+                            Console.WriteLine(likeListName[index]);
+                        }
+                        else
+                        {
+                            Console.WriteLine("And {0} other like you too", likeListName.Count()-2);
+                            break;
+                        }
+
+                    }
+
+                }
             }
+        
         }
     }
 }
