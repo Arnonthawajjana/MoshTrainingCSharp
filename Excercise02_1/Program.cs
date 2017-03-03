@@ -14,7 +14,7 @@ namespace Excercise02_1
             var likeListName = new List<string>();
             var inputFromKeyboard = new StringBuilder();
 
-            Console.WriteLine("Some one like buy add new Name?");
+            Console.WriteLine("Some one like by add new Name? leave blank and Enter when is enough");
             while (true)
             {
                 inputFromKeyboard.Append(Console.ReadLine());
