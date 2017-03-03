@@ -1,2 +1,2 @@
 # MoshTrainingCSharp
-For write a ascript and train to use github
+For save my training code and train to use github
