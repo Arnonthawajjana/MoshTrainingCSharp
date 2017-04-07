@@ -28,8 +28,7 @@ namespace Excercise01_6
                 try
                 {
                     numberOfAll.Add(int.Parse(input.ToString()));
-                    Console.WriteLine("List have {0} number sumall equal {1}",
-                        numberOfAll.Count, numberOfAll.Sum());
+                    Console.WriteLine($"List have {numberOfAll.Count} number sumall equal {numberOfAll.Sum()}");
                 }
                 catch
                 {

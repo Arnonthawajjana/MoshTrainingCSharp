@@ -18,7 +18,7 @@ namespace Excercise01_5
             {
                 if (number % divideBy == expectResult) equalZeroCounter++;
             }
-            Console.WriteLine("result for divide by 3 eqaul 0 have {0} numbers",equalZeroCounter);
+            Console.WriteLine($"result for divide by 3 eqaul 0 have {equalZeroCounter} numbers");
 
         }
     }

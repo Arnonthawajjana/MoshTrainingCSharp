@@ -14,13 +14,13 @@ namespace Excercise01_1
 
             while (true)
             {
-                Console.WriteLine("Please Insert Number: ");
+                Console.WriteLine($"Please Insert Number: ");
                 int.TryParse(Console.ReadLine(),out number);
 
                 if (number > 0 && number <= 10)
-                    Console.WriteLine("!!Number is valid!!");
+                    Console.WriteLine($"!!Number is valid!!");
                 else{
-                    Console.WriteLine("!!Number is not valid");
+                    Console.WriteLine($"!!Number is not valid");
                     break;
                 }
             }

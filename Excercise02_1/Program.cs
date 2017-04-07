@@ -25,7 +25,7 @@ namespace Excercise02_1
                 }
                 else
                 {
-                    Console.WriteLine("Let't see who like you");
+                    Console.WriteLine($"Let't see who like you");
                     for (int index = 0; index < likeListName.Count(); index++)
                     {
                         if (index < 2)
@@ -34,7 +34,7 @@ namespace Excercise02_1
                         }
                         else
                         {
-                            Console.WriteLine("And {0} other like you too", likeListName.Count()-2);
+                            Console.WriteLine($"And {likeListName.Count() - 2} other like you too");
                             break;
                         }
 

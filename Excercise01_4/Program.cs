@@ -30,7 +30,7 @@ namespace Excercise01_4
                 else
                 {
                     demerit = (currentSpeed - speedLimit) / kmPerDemeritPoint;
-                    Console.WriteLine(demerit < susspenedDemeritPoint ? "demerit " + demerit + " point" :
+                    Console.WriteLine(demerit < susspenedDemeritPoint ? $"demerit {demerit} point" :
                         "You license is suspended");
                 }
             }

@@ -22,8 +22,8 @@ namespace Excercise02_3
                 }
                 else
                 {
-                    Console.WriteLine("Re enter All again");
-                    Console.WriteLine("Duplicated number Detect");
+                    Console.WriteLine($"Re enter All again");
+                    Console.WriteLine($"Duplicated number Detect");
                 }
             }
             numbers.Sort();

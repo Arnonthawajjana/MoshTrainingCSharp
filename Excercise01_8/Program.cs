@@ -46,13 +46,13 @@ namespace Excercise01_8
                 int.TryParse(Console.ReadLine(), out inputNumber);
                 if (number.Equals(inputNumber))
                 {
-                    Console.WriteLine("You win!");
+                    Console.WriteLine($"You win!");
                     break;
                 }
-                else Console.WriteLine("You miss!");
+                else Console.WriteLine($"You miss!");
                 miss++;
             }
-            if(miss == misslimit) Console.WriteLine("You Lost!"); 
+            if(miss == misslimit) Console.WriteLine($"You Lost!"); 
         }
     }
 }

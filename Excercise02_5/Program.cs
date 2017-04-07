@@ -39,11 +39,11 @@ namespace Excercise02_5
                 {
                     FillNumbersList(number, breakChar, inputString, numbers);
                     ShowNumbersList(numbers);
-                    Console.WriteLine("That's all");
+                    Console.WriteLine($"That's all");
                 }
                 else
                 {
-                    Console.WriteLine("Please reinsert again");
+                    Console.WriteLine($"Please reinsert again");
                 }
 
             }
